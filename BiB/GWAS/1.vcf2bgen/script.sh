@@ -19,7 +19,7 @@ echo BC3 has 16 high-memory nodes, each of which has 256GB of RAM. We request 16
 echo count the number of processors available: numprocs=`wc $PBS_NODEFILE | awk '{print $1}'`
 echo "job started at `date`"
 
-qctool -g path/to/data_chr0${PBS_ARRAYID}.vcf.gz -og path/to/data_chr0${PBS_ARRAYID}_bib.bgen -os path/to/sampleid_bib0${PBS_ARRAYID}.sample -sex-column sex -bgenix -index -g path/to
+qctool -g path/to/data_chr0${PBS_ARRAYID}.vcf.gz -og path/to/data_chr0${PBS_ARRAYID}_bib.bgen -os path/to/sampleid_bib0${PBS_ARRAYID}.sample -sex-column sex
 bgenix -index -g path/to/data_chr0${PBS_ARRAYID}_bib.bgen
 
 echo "job finished at `date`"
