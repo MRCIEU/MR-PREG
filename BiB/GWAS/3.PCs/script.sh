@@ -1,4 +1,4 @@
-
+#Modified by Marwa Al Arab, based on script from Tom Bond.
 #!/bin/bash
 
 #SBATCH --job-name=pcs_job
