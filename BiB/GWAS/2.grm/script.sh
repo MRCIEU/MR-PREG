@@ -11,7 +11,7 @@
 
 module add apps/gcta/1.92
 
-gcta --bgen /mnt/storage/private/mrcieu/data/bib/genetic/variants/arrays/imputed/uk10k_1000genomes/released/2017-01-27/data/bgen/tom/data_chr${SLURM_ARRAY_TASK_ID}.bgen \
+gcta --bgen path/to/data_chr${SLURM_ARRAY_TASK_ID}.bgen \
 --make-grm-part 50 ${SLURM_ARRAY_TASK_ID} \
 --thread-num 5 \
 --maf 0.01 \
