@@ -1,4 +1,4 @@
-We need to estimate the (SNP-based) heritability of the assessed phenotypes (ie. the proportion of variation in the trait that can be explained by genetic variation in the population [all SNPs]). 
+We need to estimate the (SNP-based) heritability of the assessed phenotypes (ie. the proportion of variation in the trait that can be explained by genetic variation in the population [all SNPs]) before the GWAS is ran. The fastGWA model already estimates it before running the GWAS, it is one of the outputs. 
 
 https://www.nature.com/articles/s41588-020-0600-y
 
