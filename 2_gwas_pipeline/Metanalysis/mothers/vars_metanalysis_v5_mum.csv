@@ -1,0 +1,39 @@
+Outcome,Variable_name,Priority,var_ALSPAC,var_BIB-WE,var_BIB-SA,var_FINNGEN,var_MOBA,var_UKB,var_GWAS,var_HUNT
+Miscarriage,misc_subsamp,1,misc_subsamp,misc_subsamp,misc_subsamp,misc_all,misc_subsamp,misc_subsamp,NA,NA
+Sporadic miscarriage,s_misc_subsamp,1,s_misc_subsamp,NA,NA,NA,s_misc_subsamp,s_misc_subsamp,NA,NA
+Recurrent miscarriage,r_misc_subsamp,1,r_misc_subsamp,NA,NA,r_misc_all,r_misc_subsamp,r_misc_subsamp,NA,NA
+Stillbirth,sb_subsamp,1,sb_subsamp,sb_subsamp,sb_subsamp,NA,sb_subsamp,sb_subsamp,NA,NA
+Hypertensive disorders of pregnancy,hdp_subsamp,1,hdp_subsamp,hdp_subsamp,hdp_subsamp,hdp_all,hdp_subsamp,hdp_subsamp,NA,NA
+Gestational hypertension,gh_subsamp,1,gh_subsamp,gh_subsamp,gh_subsamp,gh_subsamp,gh_subsamp,gh_subsamp,NA,NA
+Pre-eclampsia,pe_subsamp,1,NA,pe_subsamp,pe_subsamp,pe_subsamp,pe_subsamp,pe_subsamp,pe_subsamp,NA
+Gestational diabetes,gdm_subsamp,1,NA,NA,NA,gdm_all,gdm_subsamp,NA,gdm_subsamp,gdm_subsamp
+Perinatal depression,depr_subsamp,1,NA,ante_depr_all,ante_depr_all,NA,depr_subsamp,NA,depr_subsamp,NA
+Induction of labour,induction,1,induction,induction,induction,NA,induction,induction,NA,induction_all
+Pre-labour rupture of membrane (PROM),rup_memb,1,rup_memb,NA,NA,rup_memb,rup_memb,NA,NA,NA
+Caesarian section,cs,1,cs,cs,cs,cs,cs,cs,NA,NA
+Emergency C-section,em_cs,1,em_cs,em_cs,em_cs,NA,em_cs,em_cs,NA,NA
+Elective C-section,el_cs,1,el_cs,el_cs,el_cs,NA,el_cs,el_cs,NA,NA
+Birth weight,zbw_all,1,zbw_all,zbw_all,zbw_all,NA,zbw_all,zbw_all,NA,zbw_all
+Low birth weight,lbw_all,1,lbw_all,lbw_all,lbw_all,NA,lbw_all,lbw_all,NA,lbw_all
+High birth weight,hbw_all,1,hbw_all,hbw_all,hbw_all,NA,hbw_all,hbw_all,NA,hbw_all
+Gestational age,ga_all,1,NA,NA,NA,NA,ga_all,ga_all,ga_subsamp,NA
+Gestational age,ga_subsamp,2,NA,NA,NA,NA,ga_subsamp,ga_subsamp,ga_subsamp,NA
+Very pre-term birth,vpretb_all,1,vpretb_all,vpretb_all,vpretb_all,NA,vpretb_all,vpretb_all,NA,vpretb_all
+Pre-term birth,pretb_all,1,NA,pretb_all,pretb_all,NA,pretb_all,pretb_all,pretb_subsamp,NA
+Spontaneous pre-term birth,pretb_subsamp,2,NA,pretb_subsamp,pretb_subsamp,NA,pretb_subsamp,pretb_subsamp,pretb_subsamp,NA
+Post-term birth,posttb_all,1,NA,posttb_all,posttb_all,posttb_all,posttb_all,posttb_all,posttb_subsamp,NA
+Small for gestational age,sga,1,sga_all,sga,sga,NA,sga,sga,NA,sga_all
+Large for gestational age,lga,1,lga_all,lga,lga,NA,lga,lga,NA,lga_all
+Apgar score at 1 minute,apgar1,1,apgar1,apgar1,apgar1,NA,apgar1,NA,NA,NA
+Apgar score at 5 minutes,apgar5,1,apgar5,apgar5,apgar5,NA,apgar5,NA,NA,NA
+Low Apgar score at 1 minute,lowapgar1,1,lowapgar1,lowapgar1,lowapgar1,NA,lowapgar1,NA,NA,NA
+Low Apgar score at 5 minutes,lowapgar5,1,NA,lowapgar5,lowapgar5,NA,lowapgar5,NA,NA,NA
+NICU admission,nicu,1,nicu,NA,NA,NA,nicu,NA,NA,NA
+Breastfeeding initiation,bf_ini,1,bf_ini,bf_ini,bf_ini,NA,bf_ini,NA,NA,NA
+Breastfeeding duration,bf_dur_4c,1,bf_dur_4c,bf_dur_4c,bf_dur_4c,NA,bf_dur_4c,NA,NA,NA
+Breastfeeding established,bf_est,1,bf_est,bf_est,bf_est,NA,bf_est,NA,NA,NA
+Breastfeeding sustained,bf_sus,1,bf_sus,bf_sus,bf_sus,NA,bf_sus,NA,NA,NA
+Maternal anaemia (during pregnancy),anaemia_preg_all,2,anaemia_preg_all,anaemia_preg_all,anaemia_preg_all,NA,anaemia_preg_all,NA,NA,NA
+Severity of nausea and vomiting in pregnancy,nvp_sev_all,2,nvp_sev_all,NA,NA,NA,nvp_sev_all,NA,NA,NA
+Severity of nausea and vomiting in pregnancy,nvp_sev_subsamp,2,nvp_sev_subsamp,NA,NA,NA,nvp_sev_subsamp,NA,NA,NA
+Hyperemesis,hyp,2,NA,hg_all,hg_all,hyp,hyp,hyp_all,NA,NA

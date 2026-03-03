@@ -1,0 +1,11 @@
+##  
+##  
+
+source config.sh 
+
+cd ${flash}
+
+cut -f 1-22 white_children_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections.txt > white_children_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections_20.txt
+cut -f 1-22 pakistani_children_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections.txt > pakistani_children_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections_20.txt
+cut -f 1-22 white_mothers_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections.txt > white_mothers_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections_20.txt
+cut -f 1-22 pakistani_mothers_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections.txt > pakistani_mothers_unrelated_maf_0_01_geno_0_03_no_long_range_ld_pruned_projections_20.txt
